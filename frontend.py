@@ -5,7 +5,7 @@ from tkinter import *
 from click import command
 from backend import Database #class
 
-database=Database()
+database=Database("books.db")
 
 def get_selected_row(event):
    try:
